@@ -1,0 +1,99 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+nav ul li a:hover, nav ul li a.active {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+
+/* Content Sections */
+#overview, #work-experience, #research, #outreach {
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#overview-content, #work-experience-content, #research-content, #outreach-content {
+  padding: 20px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffcc00;
+}
